@@ -1,0 +1,1 @@
+export function Button({ children, ...props }) { return <button {...props} className="px-4 py-2 rounded bg-pink-400 text-white hover:bg-pink-500">{children}</button>; }
